@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caprasimo&family=Great+Vibes&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.brand-font {
+    font-family: 'Abril Fatface', cursive;
+  }
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.procard{
+  border: none;
+  
+}
+
+.Loader{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  row-gap: 1rem;
+  text-align: center;
+
+}
+
+.img{
+width:50%;
+height:auto;
+}
+.contents{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.image-container {
+height: 40vh;
+border-radius: 2%;
+object-fit: cover;
+}
+/* Product carousel */
+/* Card{
+  display: flex;
+  flex-wrap:wrap;
+  width:300px;
+} */
+.thumb{
+  flex: 1 1 200px;
+}
+.content{
+  flex: 2 1 300px;
+}
+/* limitize headings for every card */
+.limithead{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; 
+          line-clamp: 1; 
+  -webkit-box-orient: vertical;
+}
+/* limitize text for every card */
+.limitize{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+
+/* Loader */
+.Loader{
+  background-color: #000;
+}

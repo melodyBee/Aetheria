@@ -1,0 +1,15 @@
+.sidefont {
+  font-size: large;
+}
+.sidebar-container {
+  width: 45vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* background-color: #0c120c; */
+  color: #fff; /* Set your desired text color */
+  overflow-y: auto;
+  z-index: 100;
+}

@@ -1,0 +1,35 @@
+
+.brand-font {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.parallax-container {
+  display: flex;
+      min-height: 92vh;
+      flex-direction: column;
+      align-items:start;
+      justify-content:end;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      color: #ffff;
+      row-gap: 4rem;
+      text-align: center;
+      background-image:  url(https://images.pexels.com/photos/4840134/pexels-photo-4840134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    }
+
+.parallax-content {
+  font-size: 9vh;
+  text-align: left; /* Align the text to the left */
+  padding: 20px;
+  width: 45%;
+}
+
+.buffer {
+  width: 100%;
+  min-height: 60vh;
+  color: #ffff;
+  background-color: #2b3035;
+  font-size: xx-large;
+}
+

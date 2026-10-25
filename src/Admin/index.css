@@ -1,0 +1,29 @@
+/* basic design */
+.bg-lightb {
+  background-color: #4b7f52;
+}
+#bg-brand {
+  background-color: #0c120c;
+}
+#lightbg {
+  background-color: #1d2b1d;
+}
+.headcont {
+  color: #4b7f52;
+}
+
+.productImage {
+  width: 50vh;
+  height: 60vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.cardProducts {
+  width: 60vh;
+}
+.img {
+  object-fit: contain;
+  width: "50vh";
+}
